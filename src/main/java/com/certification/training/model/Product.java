@@ -1,10 +1,10 @@
-package com.certificacion.training.model;
+package com.certification.training.model;
 
-public class product {
+public class Product {
 
     private String name;
 
-    public product(String name) {
+    public Product(String name) {
         this.name = name;
     }
     public String getName() {

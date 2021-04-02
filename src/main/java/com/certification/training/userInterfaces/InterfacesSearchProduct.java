@@ -1,9 +1,9 @@
-package com.certificacion.training.userInterfaces;
+package com.certification.training.userInterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class interfacesSearchProduct {
+public class InterfacesSearchProduct {
 
     public static final Target SEARCH_MAIN = Target.
             the("Buscador principal").
