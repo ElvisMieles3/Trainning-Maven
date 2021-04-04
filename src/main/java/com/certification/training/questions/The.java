@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
-public class SearchProduct implements Question<String> {
+public class The implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
@@ -19,9 +19,9 @@ public class SearchProduct implements Question<String> {
                 viewedBy(actor).asString();
     }
 
-    public static SearchProduct message(){
+    public static The product(){
 
-        return new SearchProduct();
+        return new The();
     }
 
 }

@@ -3,6 +3,7 @@ package com.certification.training.tasks;
 import com.certification.training.userInterfaces.InterfacesSearchProduct;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
@@ -25,6 +26,7 @@ public class SearchProduct implements Task {
 
     }
     public static SearchProduct withData(String dataProduct){
-        return new SearchProduct(dataProduct);
+
+        return Tasks.instrumented(SearchProduct.class, dataProduct);
     }
 }
