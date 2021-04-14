@@ -9,5 +9,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/search_product.feature"
         , glue = {"com.certification.training.stepDefinitions","com.certification.training.hooks"}
         , snippets = SnippetType.CAMELCASE)
-public class SearchProductRunner {
+public class SearchProduct {
 }
