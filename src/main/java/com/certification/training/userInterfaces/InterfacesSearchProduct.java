@@ -20,4 +20,6 @@ public class InterfacesSearchProduct {
     public static final Target BTN_STOCK = Target.
             the("Button stock").
             locatedBy("//*[@class='available-now']");
+
+
 }
