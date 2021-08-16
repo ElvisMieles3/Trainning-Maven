@@ -1,33 +1,33 @@
 # Trainning-Maven
 Training Maven WWCODE
 
-Comenzando ✒️
+Starting 🦼 ✒️
 
-Con este proyecto se desea realizar una automatización WEB basandonos en los principios SOLID y FIRST, para un mejor entendimiento en los resportes se utiliza BDD, Cucumber y serenity con el gestor de dependencias Maven.
+With this project we want to carry out a WEB automation based on the SOLID and FIRST principles, for a better understanding of the reports, BDD, Cucumber and serenity are used with the Maven dependency manager.
 
-Pre-requisitos 📋
+Pre requirements 📋
 
-Para la ejecución de este proyecto desdemos tener presente que debemos tener instalado el JDK de java y las variables de entorno, las cuales son:
+For the execution of this project we must bear in mind that we must have the java JDK installed and the environment variables, which are:
 
-JAVA_HOME: Descarga el JDK de Java y adjuntamos la ruta en donde se encuentra la carpeta, en mi caso la tengo en C:\Program Files (x86)\Java\jdk1.8.0_251
+JAVA_HOME: Download the Java JDK and attach the path where the folder is located, in my case I have it in C:\Program Files (x86)\Java\jdk1.8.0_251
 
-MAVEN_HOME: Descarga el Apache Maven y se adjunta la ruta en donde se encuentre la carpeta, en mi caso la tengo en C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3
-Tener un IDE instalado para la observación o modificación del código.
+MAVEN_HOME: Download Apache Maven and the path where the folder is located is attached, in my case I have it in C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3
+Have an IDE installed for observing or modifying the code..
 
-En la raiz de proyecto debemos tener 3 archivos, los cuales son:
+In the project root we must have 3 files, which are:
 
 serenity.properties
 
-chromedriver.exe : Este archivo debe ser compatible con la versiòn que se tenga en la maquina.
+chromedriver.exe : This file must be compatible with the version of the machine..
 
-Ejecutando las pruebas ⚙️
+Running the tests ⚙️
 
-Para la ejecución del proyecto debe tener presente que las variables de entornos se encuentre bien configuradas, adicional debe tener las dependencias descargadas la cual se encuentra en el archivo pom.xml.
+For the execution of the project, you must keep in mind that the environment variables are well configured, additionally you must have the downloaded dependencies which can be found in the pom.xml file.
 
-La prueba se puede ejecutar por medio del package runners, la cual esta ubicada en src\test\java\co\certificacion\automatizacion\runner o por medio de la consola del proyecto con el comando
+The test can be run through the package runners, which is located in src\test\java\co\certificacion\automatizacion\runner or through the project console with the command
 
    mvn clean verify
    
 Reporte 📋
 
-Para generar el reporte de las evidencias se debe ejecutar el comando mvn serenity:agregate, las evidencias de las pruebas se encunetran en la ruta Reporte\site\serenity y buscar archivo Index que se encuentra en la carpeta.
+To generate the evidence report, execute the command mvn serenity: agregate, the evidence of the evidence is found in the path Report \ site \ serenity and look for the Index file that is in the folder.
